@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Double Burger",
+    "url": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop&q=60",
+    "caption": "Juicy double burger with fresh lettuce and tomatoes"
+  },
+  {
+    "id": 2,
+    "title": "Chef’s Special Burger",
+    "url": "https://plus.unsplash.com/premium_photo-1695822019254-29dbf739474d?w=600&auto=format&fit=crop&q=60",
+    "caption": "A delicious handcrafted burger made with passion"
+  },
+  {
+    "id": 3,
+    "title": "Premium Beef Burger",
+    "url": "https://plus.unsplash.com/premium_photo-1695822019254-29dbf739474d?w=600&auto=format&fit=crop&q=60",
+    "caption": "Premium beef patty with rich flavors"
+  },
+  {
+    "id": 4,
+    "title": "Grilled Burger Delight",
+    "url": "https://images.unsplash.com/photo-1596649299486-4cdea56fd59d?w=600&auto=format&fit=crop&q=60",
+    "caption": "Perfectly grilled burger with smoky taste"
+  },
+  {
+    "id": 5,
+    "title": "Ultimate Burger Feast",
+    "url": "https://images.unsplash.com/photo-1601894087104-0c18bc34dbd6?w=600&auto=format&fit=crop&q=60",
+    "caption": "A feast for true burger lovers"
+  }
+]
