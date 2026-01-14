@@ -58,16 +58,16 @@
 
 .slider-btn {
     display: inline-block;
-    color: #fff; /* White text */
-    background-color: #00a4aa; /* Main color */
-    padding: 0.75rem 2rem; /* Button size */
+    color: #fff; 
+    background-color: #00a4aa; 
+    padding: 0.75rem 2rem; 
     margin-top: 2rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 0.9rem;
-    border-radius: 30px; /* Rounded corners */
-    border: 2px solid #00a4aa; /* Border color */
+    border-radius: 30px; 
+    border: 2px solid #00a4aa; 
     transition: background-color 0.3s ease;
 }
 
@@ -75,7 +75,7 @@
 .slider-btn:hover {
     background-color: #ffffff; 
     color: #00a4aa; 
-    border: 2px solid #00a4aa; /* Border color */
+    border: 2px solid #00a4aa; 
     cursor: pointer;
 }
 
@@ -123,7 +123,7 @@
 /* Slide content container */
 .carousel-image{
     position: absolute;
-    bottom: 0; /* Stick to bottom */
+    bottom: 0; 
     left: 0;
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0) 100%);
@@ -147,63 +147,66 @@
     transition: all 0.5s ease;
 }
 
-/* Slide text styling */
-.myswiper-slider h1{
+/* Slide title */
+.myswiper-slider h1 {
     color: #fff;
     font-weight: 600;
     font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem; 
     text-transform: uppercase;
 }
 
-.myswiper-slider p{
+/* Slide caption */
+.myswiper-slider p {
     color: #dadada;
     line-height: 1.5;
     font-size: 0.75rem;
-    margin-bottom: 0.8rem;
+    margin-top: 0;        
+    margin-bottom: 0.8rem; 
 }
+
 
 /* Explore button inside slides */
 .myswiper-slider a {
+    position: relative;
+    bottom: 10px;  
     display: inline-block;
-    margin-top: 0.5rem;
-    padding: 0.5rem 1.5rem;          /* bigger padding for better click area */
-    background: #00a4aa;             /* main theme color */
-    color: #fff;                     /* white text */
+    padding: 0.3rem 1.2rem;
+    background: #00a4aa;
+    color: #fff;
     font-size: 0.85rem;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 25px;             /* pill shape */
-    border: 2px solid transparent;   /* initial border transparent */
+    border-radius: 25px;
+    border: 2px solid transparent;
     transition: all 0.3s ease-in-out;
-    box-shadow: 0 5px 15px rgba(0, 164, 170, 0.3); /* soft glow effect */
+    box-shadow: 0 5px 15px rgba(0, 164, 170, 0.3);
 }
+
 
 /* Hover effect */
 .myswiper-slider a:hover {
-    background: #fff;                /* white background on hover */
-    color: #00a4aa;                  /* text turns theme color */
-    border: 2px solid #00a4aa;       /* border appears */
-    transform: translateY(-2px);     /* small lift effect */
-    box-shadow: 0 8px 20px rgba(0, 164, 170, 0.4); /* stronger glow */
+    background: #fff;                
+    color: #00a4aa;                  
+    border: 2px solid #00a4aa;       
     cursor: pointer;
 }
 
 
 /* Pagination bullets */
 .swiper-pagination-bullet{
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     opacity: 0.5;
     background: #fff;
-    border-radius: 50%;   /* make it round */
+    border-radius: 50%;   
     transition: all 0.3s ease;
 }
 
 .swiper-pagination-bullet-active{
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     opacity: 1;
-    border-radius: 50%;   /* make it round */
+    border-radius: 50%;   
 }
