@@ -69,10 +69,9 @@ landing-page-with-carousel/
 └── vite.config.js       # Vite configuration
 ```
 
-## 📜 License
+<img width="1920" height="916" alt="Screenshot (723)" src="https://github.com/user-attachments/assets/55acf53e-28d1-4c02-8a44-3f6107d0c0d9" />
 
-This project is licensed under the MIT License.
 
-## 🤝 Contributing
+<img width="1920" height="915" alt="Screenshot (724)" src="https://github.com/user-attachments/assets/6eab888f-2e2c-43c7-b56b-e06023f5627f" />
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+
