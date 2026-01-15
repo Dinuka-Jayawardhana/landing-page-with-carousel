@@ -67,6 +67,7 @@ landing-page-with-carousel/
 │   └── index.css        # Base styles
 ├── package.json         # Project dependencies and scripts
 └── vite.config.js       # Vite configuration
+```
 
 
 <img width="1920" height="916" alt="Screenshot (723)" src="https://github.com/user-attachments/assets/810be458-420f-46c3-8ae3-4cf3b2c2a49e" />
